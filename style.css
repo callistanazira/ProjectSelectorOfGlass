@@ -1,3 +1,7 @@
 .jumbotron text-center {
   position: relative;
+  background: url(img/stucco\ texture.jpeg.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
 }
