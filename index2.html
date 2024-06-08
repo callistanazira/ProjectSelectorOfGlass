@@ -6,10 +6,11 @@
     <title>GlowCraft</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light shadow" style="background-color: white">
+        <nav class="navbar navbar-expand-lg navbar-light shadow fixed-top" style="background-color: white">
           <div class="container">
             <a class="navbar-brand" href="#">GlowCraft</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +22,7 @@
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#products">Products</a>
+                  <a class="nav-link active" href="#product">Products</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" href="#about">About</a>
@@ -35,60 +36,57 @@
         </nav>
     <!-- Penutup navbar -->
 
-
-    <main>
         <section class="jumbotron text-center">
             <h1>Welcome to GlowCraft</h1>
             <p>Discover our range of skincare products for all skin types.</p>
         </section>
-        <section class="container">
+        <br><br><br>
+        <section id="product">
             <h2 class="text-center">Featured Products</h2>
+            <br>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
                         <img src="img/product 1.jpg" class="card-img-top" alt="Product 1">
                         <div class="card-body">
-                            <h5 class="card-title">Somethinc</h5>
-                            <p class="card-text">telah teruji secara klinis untuk kulit berjerawat, pori-pori,
-                              pengurangan sebum/minyak, perbaikan tekstur kulit.
-                             Formulasi ringan, pH rendah mirip dengan kulit sehat halus.
-                             Memenuhi standar keamanan EWG, bebas iritasi, dan teruji secara dermatologis.</p>
+                            <h5 class="card-title">SOMETHINC</h5>
+                            <p class="card-text">Telah teruji secara klinis untuk kulit berjerawat, pori-pori,
+                              pengurangan sebum/minyak, perbaikan tekstur kulit.</p>
                             <a href="#" class="btn btn-primary">Buy Now</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="img/product 2.jpg" class="card-img-top" alt="Product 2">
+                        <img src="img/la-roche-posay-pure-vitamin-c-face-serum.jpg" class="card-img-top" alt="Product 2">
                         <div class="card-body">
-                            <h5 class="card-title">Skintific</h5>
-                            <p class="card-text">dapat digunakan sehari-hari untuk menenangkan 
-                              kulit, dan menjaga kelembaban kulit. Memiliki kandungan 5 jenis Ceramide yang berbeda
-                               yang baik untuk menjaga barier kulit</p>
+                            <h5 class="card-title">LA-ROCHE POSAY</h5>
+                            <p class="card-text">Pure Vitamin C: Anti-aging, melindungi kulit dari radikal bebas, mencerahkan kulit.
+                              Salicylic Acid: Membersihkan pori.
+                             </p>
                             <a href="#" class="btn btn-primary">Buy Now</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="img/product 3.jpg" class="card-img-top" alt="Product 3">
+                        <img src="img/cosrx.jpg" class="card-img-top" alt="Product 3">
                         <div class="card-body">
-                            <h5 class="card-title">facetology</h5>
-                            <p class="card-text">Kandungan niacinamide sebagai ceramide booster dan pengendali kandungan sebum berlebih
-                              Lalu kandungan centella asiatica extract untuk melembapkan kulit dan melindungi bekas jerawat dari paparan sinar UV</p>
+                            <h5 class="card-title">COSRX</h5>
+                            <p class="card-text">Kandungan ekstrak air daun Centella Asiatica pada produk 
+                              ini berfungsi untuk menenangkan kulit yang iritasi </p>
                             <a href="#" class="btn btn-primary">Buy Now</a>
                         </div>
                     </div>
                 </div>
+                <br>
                 <div class="col-md-4">
                   <div class="card">
-                      <img src="img/product4.jpg" class="card-img-top" alt="Product 3">
+                      <img src="img/eel1.jpg" class="card-img-top" alt="Product 3">
                       <div class="card-body">
-                          <h5 class="card-title">Glad2glow</h5>
-                          <p class="card-text">produk ini mampu menjaga skin barier kulit menjadi tetap sehat dan menjaganya dari kerusakan yang mungkin
-                            terjadi akibat radikal bebas dan juga cuaca yang nggak menentu.
-                            dan membantu meredakan masalah yang terjadi pada kulit sensitif
-                            hidrasi yang maksimal untuk kulit.</p>
+                          <h5 class="card-title">ESTEE LAUDER</h5>
+                          <p class="card-text">Kunci untuk kulit lebih kencang, halus, dan tampak bercahaya. 
+                            Bertekstur ringan, pelembab multi-aksi yang bergizi</p>
                           <a href="#" class="btn btn-primary">Buy Now</a>
                       </div>
                   </div>
@@ -98,27 +96,39 @@
                     <img src="img/product 5.jpg" class="card-img-top" alt="Product 3">
                     <div class="card-body">
                         <h5 class="card-title">CENTELLA</h5>
-                        <p class="card-text">Degan kandungan utama centella asiatica sebesar 72 persen, pelembap ini memang memiliki efek soothing atau menangkan 
-                          yang sangat tinggi. Sangat cocok untuk kamu yang kulitnya sensitif dan mudah iritasi atau alergi. </p>
+                        <p class="card-text">Dengan kandungan utama centella asiatica sebesar 72 persen, pelembap ini  memiliki efek sooting  </p>
                         <a href="#" class="btn btn-primary">Buy Now</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
               <div class="card">
-                  <img src="img/product 6.jpg" class="card-img-top" alt="Product 3">
+                  <img src="img/the originote.jpg" class="card-img-top" alt="Product 3">
                   <div class="card-body">
-                      <h5 class="card-title">Avoskin</h5>
-                      <p class="card-text">Degan kandungan utama centella asiatica sebesar 72 persen, pelembap ini memang memiliki efek soothing atau menangkan yang sangat tinggi. Sangat cocok untuk kamu yang kulitnya sensitif dan mudah iritasi atau alergi. 
-                        Pelembap ini juga mengadung 4 jenis ceramide </p>
+                      <h5 class="card-title">ORIGINOTE</h5>
+                      <p class="card-text"> Hal ini karena The Originote memiliki koleksi skincare berkualitas mumpuni tapi tetap terjangkau.</p>
                       <a href="#" class="btn btn-primary">Buy Now</a>
                   </div>
               </div>
           </div>
             </div>
         </section>
-    </main>
-    <footer class="text-center">
-        <p>&copy; 2024 Selector Of Glass. All rights reserved.</p>
-    </footer>
+    
+        <footer>
+          <div class="footer-content">
+              <h3>GlowCraft</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium atque reiciendis excepturi nobis in?</p>
+              <ul class="socials">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fa fa-telegram"></i></a></li>
+                  <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+              </ul>
+          
+          <div class="footer-bottom">
+              <p>copyright &copy;2024 GlowCraft. designed by <span>SelectorOfGlass</span></p>
+          </div>
+          </div>
+      </footer>
     <script src="https://ajax.googleapis.com/ajax/libs
