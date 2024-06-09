@@ -1,0 +1,43 @@
+.warna1 {
+  background-color: #876445;
+}
+
+.warna2 {
+  background-origin: #ca965c;
+}
+
+.warna3 {
+  background-color: #eec373;
+}
+
+.warna4 {
+  background-color: #f4dfba;
+}
+
+.banner {
+  height: 85vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.highlighted-kategori {
+  height: 250px;
+}
+
+.kategori-produk-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/cristi-ursea-nC9rUC7Oyfk-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.kategori-produk-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/product 2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.kategori-produk-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/cosrx.jpg");
+  background-size: cover;
+  background-position: center;
+}
